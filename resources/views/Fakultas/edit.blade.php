@@ -1,7 +1,6 @@
 
 <head>
-<body>
-<link rel = "stylesheet" href="{{asset ('css/edit.css') }}">
+
     <form action="{{ route('Fakultas.update', $faculty->id )}}" method="POST" >
     @csrf
     @method('PUT')
