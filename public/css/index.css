@@ -1,0 +1,64 @@
+/* CSS dalam file index.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Fakultas-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.description {
+    flex: 1;
+    color: #333;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.buttons a, .delete-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons a:hover, .delete-button:hover {
+    opacity: 0.9;
+}
+
+.buttons a:nth-child(1) {
+    background-color: #3498db;
+}
+
+.buttons a:nth-child(2) {
+    background-color: #2ecc71;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    border: none;
+}

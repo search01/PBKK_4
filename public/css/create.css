@@ -1,0 +1,71 @@
+/* Gaya umum untuk tata letak dan tampilan */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    margin: 20px auto;
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.form {
+    width: 200%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Mengatur posisi teks menjadi di tengah */
+    position: relative; /* Menambahkan posisi relatif untuk menempatkan teks secara lebih tepat */
+}
+
+.form h2 {
+    margin-top: 0; /* Menghapus margin atas pada teks h2 */
+    margin-bottom: 20px; /* Memberikan ruang di bawah teks h2 */
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="submit"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: rgb(134, 156, 252);
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(134, 156, 252);
+}
+
+h3 a {
+    color: rgb(134, 156, 252);
+    text-decoration: none;
+}
+
+h3 a:hover {
+    text-decoration: underline;
+}
+
